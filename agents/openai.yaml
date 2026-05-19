@@ -1,0 +1,7 @@
+interface:
+  display_name: "Shangwen Automatic Finance Data"
+  short_description: "Package A-share data from free sources."
+  default_prompt: "Use $shangwen-automatic-finance-data to fetch today quote and company fundamentals for 中国平安, then package the results as JSON and CSV in a zip."
+
+policy:
+  allow_implicit_invocation: true
